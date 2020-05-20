@@ -18,7 +18,7 @@ Richard Poschinger
 Distributed under the MIT license.
 
 ## Usage
-###Prerequisites:
+### Prerequisites:
 Install required packages on all hosts and set INSTALL_REQUIREMENTS to False, if you want to run the tests in an isolated environment without connection to the Internet.
 
 If the hosts have access to the Internet during runtime of the worm, INSTALL_REQUIREMENTS can be set to true. Thus the required resources will be installed during the infection process. 
@@ -32,7 +32,7 @@ or
 pip3 install netifaces python-nmap netaddr paramiko termcolor
 ```
 
-###Start Worm:
+### Start Worm:
 ```
 python3 networm.py
 ```
